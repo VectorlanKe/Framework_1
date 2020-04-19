@@ -15,6 +15,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{E145594F-B069-4A79-9408-557481CFEE11}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{CEE4DB8E-0C38-4EE5-81CF-117A4C430C5B}"
+	ProjectSection(SolutionItems) = preProject
+		test\TestProject.txt = test\TestProject.txt
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepositoryFactory", "src\Repository\RepositoryFactory\RepositoryFactory.csproj", "{2B1D738D-3F48-4BAC-9C2B-4D5B48A6F205}"
 EndProject
@@ -29,8 +32,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "src\Application\WebApi\WebApi.csproj", "{98B8AABA-BFAC-4539-8BB8-A4A2D7B89D15}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Management", "src\Repository\Management\Management.csproj", "{236BF7EC-6F03-4BD8-8911-4CCFAC0D9BE3}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestRepository", "test\UnitTestRepository\UnitTestRepository.csproj", "{2F981E8B-5CCE-45C7-8084-492AC3EBA6D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -66,10 +67,6 @@ Global
 		{236BF7EC-6F03-4BD8-8911-4CCFAC0D9BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{236BF7EC-6F03-4BD8-8911-4CCFAC0D9BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{236BF7EC-6F03-4BD8-8911-4CCFAC0D9BE3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2F981E8B-5CCE-45C7-8084-492AC3EBA6D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2F981E8B-5CCE-45C7-8084-492AC3EBA6D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2F981E8B-5CCE-45C7-8084-492AC3EBA6D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2F981E8B-5CCE-45C7-8084-492AC3EBA6D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,7 +79,6 @@ Global
 		{434976F5-DE36-45F2-975F-E7F13D555CE1} = {28A9A61C-6731-47EC-8A1C-F19B32CD4E2B}
 		{98B8AABA-BFAC-4539-8BB8-A4A2D7B89D15} = {2019A16E-7375-4D98-97BE-4FEA8D350B6D}
 		{236BF7EC-6F03-4BD8-8911-4CCFAC0D9BE3} = {E145594F-B069-4A79-9408-557481CFEE11}
-		{2F981E8B-5CCE-45C7-8084-492AC3EBA6D9} = {CEE4DB8E-0C38-4EE5-81CF-117A4C430C5B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {18F0CB8D-8C9A-4856-A140-D254EF3804FA}
